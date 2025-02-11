@@ -35,7 +35,7 @@ pay=200
 pay2=300+200
 print(pay2)
 
-#finding hypotenoues usign Pythagorus Theorem
+#finding hypotenoues using Pythagorus Theorem
 h=9
 b=5
 h=(h**2 + b**2)**0.5
