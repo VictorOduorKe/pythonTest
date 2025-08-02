@@ -17,3 +17,8 @@ print(myfunction(cities))
  #         city=city.upper()
 #          print(f"{idx}. {city}")
 #print(count_cities(cities))         
+
+
+
+for idx, city in enumerate(cities, 1):
+    print(f"{idx}. {city} (length: {len(city)})")
