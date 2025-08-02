@@ -22,3 +22,9 @@ print(myfunction(cities))
 
 for idx, city in enumerate(cities, 1):
     print(f"{idx}. {city} (length: {len(city)})")
+
+def check_length(cities):
+     for idx, city in enumerate(cities,1):
+          print(f"{idx}. {city} ()")
+
+          
